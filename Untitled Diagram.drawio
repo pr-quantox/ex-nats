@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T14:15:02.211Z" agent="5.0 (X11)" etag="kowxtw1Oarz5QqkrD_0T" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T14:19:15.870Z" agent="5.0 (X11)" etag="AshT3lCAgl_rcjfK7MJ6" version="20.2.6" type="github">
   <diagram id="olTcYtLL-F0ZYfqwLzHk" name="Page-1">
     <mxGraphModel dx="1673" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -118,13 +118,13 @@
         <mxCell id="jxMrgidw5v09EgPEdcY5-46" value="End User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="600" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jxMrgidw5v09EgPEdcY5-47" value="New APP server" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="jxMrgidw5v09EgPEdcY5-47" value="Thirsty APP server" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="390" y="785" width="200" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="jxMrgidw5v09EgPEdcY5-48" value="ReactJs&lt;br&gt;SSR front" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="jxMrgidw5v09EgPEdcY5-47">
+        <mxCell id="jxMrgidw5v09EgPEdcY5-48" value="ReactJs&lt;br&gt;SSR front" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="jxMrgidw5v09EgPEdcY5-47">
           <mxGeometry x="60" y="45" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jxMrgidw5v09EgPEdcY5-49" value="&lt;div&gt;Nginx + PHP&lt;/div&gt;&lt;div&gt;Laravel backend&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="jxMrgidw5v09EgPEdcY5-47">
+        <mxCell id="jxMrgidw5v09EgPEdcY5-49" value="&lt;div&gt;Nginx + PHP&lt;/div&gt;&lt;div&gt;Laravel backend&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="jxMrgidw5v09EgPEdcY5-47">
           <mxGeometry x="20" y="165" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jxMrgidw5v09EgPEdcY5-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="jxMrgidw5v09EgPEdcY5-47" source="jxMrgidw5v09EgPEdcY5-48" target="jxMrgidw5v09EgPEdcY5-49">
